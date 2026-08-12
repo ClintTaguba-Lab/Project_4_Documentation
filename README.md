@@ -56,23 +56,23 @@
 
 This project analyzes the Philippines subset of the Global Findex 2025 dataset to examine financial inclusion across three connected dimensions:
 
-**Financial Access → Digital Activation → Financial Behavior**]
+**Financial Access → Digital Activation → Financial Behavior**
 
-**Problem Statement:** [Which groups in the Philippines remain financially excluded and what characteristics are associated with the transition from financial access to active digital financial usage?
+**Problem Statement:** Which groups in the Philippines remain financially excluded and what characteristics are associated with the transition from financial access to active digital financial usage?
 
 **Approach:** The project uses survey-weighted descriptive analysis, demographic segmentation, behavioral segmentation, interactive visualization, Chi-square tests, and Cramér's V association measures.
 
 Three research questions guide the analysis:
 
 1. Which demographic groups show the largest gaps in financial account ownership?
-2. Among account owners, which groups show the largest differences in digital-payment adoption?
-3. How do saving and borrowing behaviors differ across financial-engagement levels?
+2. Among account owners, which groups show the largest differences in digital payment adoption?
+3. How do saving and borrowing behaviors differ across financial engagement levels?
 
 **Outcome:** The analysis found that:
 
 * Education and income show the largest disparities in financial account ownership.
 * 80.37% of account owners use digital payments, leaving a 19.63% digital activation gap.
-* Age and internet usage are the strongest observed differentiators of digital-payment adoption among account owners.
+* Age and internet usage are the strongest observed differentiators of digital payment adoption among account owners.
 * Financial engagement differentiates saving behavior more strongly than borrowing behavior.
 ---
 
@@ -94,10 +94,14 @@ Three research questions guide the analysis:
   (These can't fail - which means they can't succeed either.)
 -->
 
-- **Primary Objective:** [The main thing you set out to do]
-- **Secondary Objective 1:** [Supporting goal]
-- **Secondary Objective 2:** [Supporting goal]
-- **Secondary Objective 3:** [Remove if not applicable]
+- **Primary Objective:** Identify demographic and behavioral characteristics associated with financial exclusion and digital financial adoption among Filipino adults.
+- **Secondary Objective 1:** Quantify financial account ownership using survey weighted estimates.
+- **Secondary Objective 2:** Identify demographic groups with the largest account ownership gaps.
+- **Secondary Objective 3:** Determine whether account ownership translates into digital payment activity.
+- **Secondary Objective 4:** Identify characteristics associated with digital adoption among account owners.
+- **Secondary Objective 5:** Compare saving and borrowing behavior across financial-engagement levels.
+- **Secondary Objective 6:** Statistically validate major descriptive findings.
+- **Secondary Objective 7:** Translate analytical evidence into practical financial inclusion recommendations.
 
 > 💡 *Every analysis decision in this project traces back to one of these objectives.*
 
@@ -122,10 +126,12 @@ Three research questions guide the analysis:
 
 | Dimension | Details |
 |-----------|---------|
-| **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | [What you explicitly excluded - and a brief reason why] |
-| **Time Period** | [Date range of the data or the project itself] |
-| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
+| **In Scope** | Philippine respondents from Global Findex 2025; financial access, digital payment usage, saving, borrowing, internet usage, and demographic factors |
+| **Out of Scope** | Causal inference, transaction level analysis, credit quality, monetary transaction values, longitudinal trends |
+| **Time Period** | YEAR 2025 |
+| **Source Dataset** | Global Findex 2025 microdata |
+| **Granularity** | One row per survey respondent |
+| **Primary Analysis Level** | Respondent level weighted analysis |
 
 ### Tools & Technologies
 
