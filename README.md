@@ -142,43 +142,37 @@ Three research questions guide the analysis:
 
 | Category | Tool(s) Used |
 |----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
-| Version Control | [e.g., Git / GitHub] |
-| Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
+| Data Source | [CSV / Global Findex 2025] |
+| Data Processing | Python |
+| Analysis | Pandas, NumPy |
+| Statistical Testing | SciPy |
+| Visualization | Plotly |
+| Development Environment | Google Colab |
+| Version Control | Git / GitHub |
+| Documentation | Markdown |
 
 ---
 
 ## 4. Repository Structure
 
 ```
-[project-root]/
+financial-inclusion-philippines/
 │
-├── data/
-│   ├── raw/                  # Original, unmodified source data - never edited
-│   ├── processed/            # Cleaned and transformed data
-│   └── external/             # Reference data, lookup tables, third-party files
+├── README.md
 │
-├── notebooks/                # Jupyter, R Markdown, or Colab notebooks
+├── notebooks/
+│   └── Financial_Inclusion_Philippines.ipynb
 │
-├── scripts/                  # Reusable .py, .R, or .sh processing files
+├── visuals/
+│   ├── financial_inclusion_snapshot.png
+│   ├── account_ownership_gap.png
+│   ├── digital_adoption_gap.png
+│   └── financial_behavior.png
+│ ├── data/
+│   └── README.md
 │
-├── queries/                  # SQL files (retain this folder for SQL-heavy projects)
-│   ├── exploratory/          # Ad-hoc or investigative queries
-│   ├── transformations/      # Cleaning and reshaping logic
-│   └── final/                # Production-ready or presentation queries
-│
-├── reports/                  # Final outputs: PDFs, slide decks, Word docs
-│
-├── visuals/                  # Exported charts, dashboard screenshots, ERD diagrams
-│
-├── docs/                     # Data dictionaries, schema notes, reference material
-│
-├── project_metadata.yml      # Machine-readable metadata (optional)
-└── README.md                 # You are here
+└── docs/
+    └── data_dictionary.md
 ```
 
 > ⚠️ *Delete folders you didn't use. An empty folder is worse than no folder.*
