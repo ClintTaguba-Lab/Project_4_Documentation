@@ -1,4 +1,4 @@
-# [Project Title]
+# Analyzing financial access, digital-payment adoption, and financial behavior among Filipino adults using Global Findex 2025 survey data.
 > *Analyzing financial access, digital-payment adoption, and financial behavior among Filipino adults using Global Findex 2025 survey data.*
 
 ---
