@@ -12,15 +12,6 @@
 * Data Visualization
 * End to End Analysis
 
-
-
-Exploratory Data Analysis (EDA)
-Python Analysis
-Data Cleaning / Wrangling
-Statistical Analysis
-Data Visualization
-End to End Analysis
-
 ---
 
 ## Table of Contents
