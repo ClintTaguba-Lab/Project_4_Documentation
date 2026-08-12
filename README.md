@@ -205,23 +205,99 @@ financial-inclusion-philippines/
 -->
 
 ```
-[Data Source(s)]
+Global Findex 2025
       ↓
-[Ingestion / Collection Method]
+Filter Philippines
       ↓
-[Cleaning & Transformation]
+Validate Respondents
       ↓
-[Analysis / Modelling / Querying]
+Select Analysis Variables
       ↓
-[Output / Visualisation / Reporting]
+Check Missing Values & Categories
+      ↓
+Apply Survey Weights
+      ↓
+Feature Engineering
+      ↓
+Weighted Descriptive Analysis
+      ↓
+Segmentation & Gap Analysis
+      ↓
+Statistical Validation
+      ↓
+Visualization
+      ↓
+Insights & Recommendations
 ```
 
-1. **Source:** [Where did the data come from? Format, size, access method.]
-2. **Ingestion:** [How was it brought in?]
-3. **Cleaning:** [What issues did you find and fix?]
-4. **Transformation:** [What new fields, aggregations, or structures did you create?]
-5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
-6. **Output:** [What form do the results take?]
+1. **Source:** [Global Findex 2025 microdata containing approximately 144,090 respondents and 199 variables.]
+2. **Filtering:** The dataset was filtered to respondents whose economy was recorded as the Philippines.
+
+The final Philippine sample contains:
+
+* 1,000 respondents
+* 1,000 unique respondent IDs
+* 0 duplicate respondent IDs
+Only variables relevant to the research questions were retained for analysis.
+
+3. **Cleaning:** Data quality and category checks were performed before analysis.
+
+The cleaning process included:
+
+checking respondent IDs for duplicates;
+reviewing missing values in key analytical variables;
+checking for missing survey weights;
+validating raw category values against the data definitions;
+reviewing demographic and financial indicator coding;
+checking survey-weight values before weighted calculations; and
+confirming that key binary indicators were consistently coded.
+
+These checks helped ensure that the analytical sample and variables were suitable for the subsequent weighted analysis.
+
+4. **Transformation:** Raw survey variables were transformed into readable categories and analytical segments to support interpretation.
+
+Derived fields included:
+
+Gender — readable gender categories
+Education — Primary or Less, Secondary, and Tertiary
+Income Quintile — Q1 Poorest through Q5 Richest
+Employment — In Workforce and Out of Workforce
+Residence — Urban and Rural
+Age Group — grouped respondent age bands
+Account Status — Account Owner or No Account
+Digital Payment Status — Digital Payment User or Non-Digital Payment User
+Digital Account Status — Digital Account or No Digital Account
+Internet Status — Internet User or Non-Internet User
+Financial Behavior — Saver & Borrower, Saver Only, Borrower Only, or Neither
+Financial Engagement — Financially Excluded, Basic Access, or Digitally Active
+
+Reusable functions were also created to calculate survey weighted percentages across demographic and behavioral groups.
+
+5. **Analysis:** The project combines descriptive, visual, and statistical analysis.
+
+Methods used include:
+
+Survey-weighted analysis to estimate population-level percentages;
+Demographic segmentation to compare financial outcomes across population groups;
+Gap analysis to measure percentage-point differences between the highest and lowest groups;
+Behavioral segmentation to examine saving and borrowing patterns;
+Cross-tabulation to validate relationships between financial-access and digital-payment indicators;
+Chi-square tests of independence to test categorical associations;
+Cramér's V to compare association strength; and
+Plotly visualizations to communicate major patterns and disparities.
+
+6. **Output:** The analysis produces:
+
+weighted KPI summaries
+demographic comparison tables
+percentage-point gap analyses
+financial behavior segments
+interactive Plotly visualizations
+statistical validation tables
+key findings and evidence summaries
+prioritized recommendations
+assumptions and limitations
+a documented Google Colab notebook containing the complete analytical workflow.
 
 ---
 
