@@ -52,24 +52,28 @@
   (Too vague. Could describe 10,000 projects. Describes none of them.)
 -->
 
-**Context:** [Financial inclusion extends beyond whether individuals own a financial account. People may have formal financial access but remain digitally inactive, while financially excluded individuals may still participate in financial behaviors such as saving or borrowing.
+**Context:** Financial inclusion extends beyond whether individuals own a financial account. People may have formal financial access but remain digitally inactive, while financially excluded individuals may still participate in financial behaviors such as saving or borrowing.
 
 This project analyzes the Philippines subset of the Global Findex 2025 dataset to examine financial inclusion across three connected dimensions:
 
 **Financial Access → Digital Activation → Financial Behavior**]
 
-**Problem Statement:** [Which groups in the Philippines remain financially excluded and what characteristics are associated with the transition from financial access to active digital financial usage?]
+**Problem Statement:** [Which groups in the Philippines remain financially excluded and what characteristics are associated with the transition from financial access to active digital financial usage?
 
-**Approach:** [The project uses survey-weighted descriptive analysis, demographic segmentation, behavioral segmentation, interactive visualization, Chi-square tests, and Cramér's V association measures.
+**Approach:** The project uses survey-weighted descriptive analysis, demographic segmentation, behavioral segmentation, interactive visualization, Chi-square tests, and Cramér's V association measures.
 
 Three research questions guide the analysis:
 
 1. Which demographic groups show the largest gaps in financial account ownership?
 2. Among account owners, which groups show the largest differences in digital-payment adoption?
-3. How do saving and borrowing behaviors differ across financial-engagement levels?]
+3. How do saving and borrowing behaviors differ across financial-engagement levels?
 
-**Outcome:** [What did you produce or discover?]
+**Outcome:** The analysis found that:
 
+* Education and income show the largest disparities in financial account ownership.
+* 80.37% of account owners use digital payments, leaving a 19.63% digital activation gap.
+* Age and internet usage are the strongest observed differentiators of digital-payment adoption among account owners.
+* Financial engagement differentiates saving behavior more strongly than borrowing behavior.
 ---
 
 ## 2. Objectives
