@@ -6,6 +6,15 @@
 ## ⚙️ Project Type Flags
 > *Check what applies. This helps reviewers and collaborators understand the nature of the work at a glance. Delete this block before publishing.*
 
+* Exploratory Data Analysis (EDA)
+* Python Analysis
+* Data Cleaning / Wrangling
+4. Statistical Analysis
+5. Data Visualization
+6. End to End Analysis
+
+
+
 Exploratory Data Analysis (EDA)
 Python Analysis
 Data Cleaning / Wrangling
