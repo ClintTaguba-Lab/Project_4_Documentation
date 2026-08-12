@@ -258,18 +258,18 @@ These checks helped ensure that the analytical sample and variables were suitabl
 
 Derived fields included:
 
-* Gender — readable gender categories
-* Education — Primary or Less, Secondary, and Tertiary
-* Income Quintile — Q1 Poorest through Q5 Richest
-* Employment — In Workforce and Out of Workforce
-* Residence — Urban and Rural
-* Age Group — grouped respondent age bands
-* Account Status — Account Owner or No Account
-* Digital Payment Status — Digital Payment User or Non-Digital Payment User
-* Digital Account Status — Digital Account or No Digital Account
-* Internet Status — Internet User or Non-Internet User
-* Financial Behavior — Saver & Borrower, Saver Only, Borrower Only, or Neither
-* Financial Engagement — Financially Excluded, Basic Access, or Digitally Active
+* Gender - readable gender categories
+* Education - Primary or Less, Secondary, and Tertiary
+* Income Quintile - Q1 Poorest through Q5 Richest
+* Employment - In Workforce and Out of Workforce
+* Residence - Urban and Rural
+* Age Group - grouped respondent age bands
+* Account Status - Account Owner or No Account
+* Digital Payment Status - Digital Payment User or Non-Digital Payment User
+* Digital Account Status - Digital Account or No Digital Account
+* Internet Status - Internet User or Non Internet User
+* Financial Behavior - Saver & Borrower, Saver Only, Borrower Only, or Neither
+* Financial Engagement - Financially Excluded, Basic Access, or Digitally Active
 
 Reusable functions were also created to calculate survey weighted percentages across demographic and behavioral groups.
 
