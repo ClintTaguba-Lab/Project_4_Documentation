@@ -1,5 +1,5 @@
 # [Project Title]
-> *One sentence. What did you analyze, build, or solve - and why does it matter?*
+> *Analyzing financial access, digital-payment adoption, and financial behavior among Filipino adults using Global Findex 2025 survey data.*
 
 ---
 
