@@ -52,11 +52,21 @@
   (Too vague. Could describe 10,000 projects. Describes none of them.)
 -->
 
-**Context:** [The business, research, or personal situation that motivated this project.]
+**Context:** [Financial inclusion extends beyond whether individuals own a financial account. People may have formal financial access but remain digitally inactive, while financially excluded individuals may still participate in financial behaviors such as saving or borrowing.
 
-**Problem Statement:** [The specific question or challenge you were addressing.]
+This project analyzes the Philippines subset of the Global Findex 2025 dataset to examine financial inclusion across three connected dimensions:
 
-**Approach:** [In 1–2 sentences - how did you tackle it?]
+**Financial Access → Digital Activation → Financial Behavior**]
+
+**Problem Statement:** [Which groups in the Philippines remain financially excluded and what characteristics are associated with the transition from financial access to active digital financial usage?]
+
+**Approach:** [The project uses survey-weighted descriptive analysis, demographic segmentation, behavioral segmentation, interactive visualization, Chi-square tests, and Cramér's V association measures.
+
+Three research questions guide the analysis:
+
+1. Which demographic groups show the largest gaps in financial account ownership?
+2. Among account owners, which groups show the largest differences in digital-payment adoption?
+3. How do saving and borrowing behaviors differ across financial-engagement levels?]
 
 **Outcome:** [What did you produce or discover?]
 
