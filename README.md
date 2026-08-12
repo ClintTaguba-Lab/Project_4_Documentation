@@ -258,18 +258,18 @@ These checks helped ensure that the analytical sample and variables were suitabl
 
 Derived fields included:
 
-Gender — readable gender categories
-Education — Primary or Less, Secondary, and Tertiary
-Income Quintile — Q1 Poorest through Q5 Richest
-Employment — In Workforce and Out of Workforce
-Residence — Urban and Rural
-Age Group — grouped respondent age bands
-Account Status — Account Owner or No Account
-Digital Payment Status — Digital Payment User or Non-Digital Payment User
-Digital Account Status — Digital Account or No Digital Account
-Internet Status — Internet User or Non-Internet User
-Financial Behavior — Saver & Borrower, Saver Only, Borrower Only, or Neither
-Financial Engagement — Financially Excluded, Basic Access, or Digitally Active
+* Gender — readable gender categories
+* Education — Primary or Less, Secondary, and Tertiary
+* Income Quintile — Q1 Poorest through Q5 Richest
+* Employment — In Workforce and Out of Workforce
+* Residence — Urban and Rural
+* Age Group — grouped respondent age bands
+* Account Status — Account Owner or No Account
+* Digital Payment Status — Digital Payment User or Non-Digital Payment User
+* Digital Account Status — Digital Account or No Digital Account
+* Internet Status — Internet User or Non-Internet User
+* Financial Behavior — Saver & Borrower, Saver Only, Borrower Only, or Neither
+* Financial Engagement — Financially Excluded, Basic Access, or Digitally Active
 
 Reusable functions were also created to calculate survey weighted percentages across demographic and behavioral groups.
 
@@ -277,27 +277,27 @@ Reusable functions were also created to calculate survey weighted percentages ac
 
 Methods used include:
 
-Survey-weighted analysis to estimate population-level percentages;
-Demographic segmentation to compare financial outcomes across population groups;
-Gap analysis to measure percentage-point differences between the highest and lowest groups;
-Behavioral segmentation to examine saving and borrowing patterns;
-Cross-tabulation to validate relationships between financial-access and digital-payment indicators;
-Chi-square tests of independence to test categorical associations;
-Cramér's V to compare association strength; and
-Plotly visualizations to communicate major patterns and disparities.
+* Survey weighted analysis to estimate population level percentages
+* Demographic segmentation to compare financial outcomes across population groups
+* Gap analysis to measure percentage-point differences between the highest and lowest groups
+* Behavioral segmentation to examine saving and borrowing patterns
+* Cross tabulation to validate relationships between financial access and digital payment indicators
+* Chi-square tests of independence to test categorical associations
+* Cramér's V to compare association strength
+* Plotly visualizations to communicate major patterns and disparities
 
 6. **Output:** The analysis produces:
 
-weighted KPI summaries
-demographic comparison tables
-percentage-point gap analyses
-financial behavior segments
-interactive Plotly visualizations
-statistical validation tables
-key findings and evidence summaries
-prioritized recommendations
-assumptions and limitations
-a documented Google Colab notebook containing the complete analytical workflow.
+* weighted KPI summaries
+* demographic comparison tables
+* percentage point gap analyses
+* financial behavior segments
+* interactive Plotly visualizations
+* statistical validation tables
+* key findings and evidence summaries
+* prioritized recommendations
+* assumptions and limitations
+* a documented Google Colab notebook containing the complete analytical workflow.
 
 ---
 
