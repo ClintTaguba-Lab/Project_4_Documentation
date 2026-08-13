@@ -514,7 +514,6 @@ Financial engagement showed a substantially stronger association with saving beh
 
 ---
 
-## 9. Key Insights
 
 <!--
   Findings + implications. Not just what happened - what it means.
@@ -534,7 +533,7 @@ Financial engagement showed a substantially stronger association with saving beh
   Aim for 3–6 insights. Quality over quantity.
 -->
 
-# 8. Key Insights
+## 8. Key Insights
 
 **Insight 1: Education and income define the largest financial access gaps**  
 Account ownership varied substantially across socioeconomic groups, with a **48.53 percentage point gap by education** and a **31.42 percentage point gap by income**. Statistical testing also identified education and income as the strongest demographic associations with account ownership, suggesting that financial access remains particularly uneven across education and income levels.
@@ -550,7 +549,6 @@ Saving showed a **40.35 percentage point gap across financial engagement levels*
 
 ---
 
-## 10. Recommendations
 
 <!--
   Action-oriented. Addressed to a real audience.
@@ -571,7 +569,7 @@ Saving showed a **40.35 percentage point gap across financial engagement levels*
      (This is a placeholder, not a recommendation.)
 -->
 
-# 9. Recommendations
+## 9. Recommendations
 
 | Priority | Recommendation | Based On | Suggested Owner |
 | --- | --- | --- | --- |
@@ -676,6 +674,7 @@ Saving showed a **40.35 percentage point gap across financial engagement levels*
 ## 14. Author
 
 **Clinton Taguba**
+
 Data Analyst | Aspiring Data Scientist & Data Engineer
 
 - 🔗 https://www.linkedin.com/in/clintontaguba/
