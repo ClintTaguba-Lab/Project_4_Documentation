@@ -321,7 +321,7 @@ Methods used include:
      if a formal schema doesn't apply. Even one paragraph is more helpful than nothing.
 -->
 
-### Dataset / Table: `[name]`
+### Dataset / Table: `Global Findex 2025`
 
 ## Analysis Dataset
 
@@ -366,108 +366,9 @@ Methods used include:
 
 > **Note:** These financial engagement segments were created specifically for this analysis and are not official Global Findex classifications.
 
-
-> **Row count (approx.):** [X rows]
-> **Date range:** [Start] – [End]
-> **Key join / relationship:** [e.g., `orders.customer_id` → `customers.id`]
-
-*Add additional table blocks as needed for multi-table projects.*
-
 ---
 
-## 7. ERD - Entity Relationship Diagram
-### *(Primarily for SQL Projects - remove this section if not applicable)*
-
-<!--
-  An ERD shows how your tables connect to each other visually.
-  It is the fastest way for a reviewer to understand the data structure
-  of a SQL project without reading every query.
-
-  HOW TO INCLUDE YOUR ERD:
-  Option A - Image embed (most common):
-    Export your ERD from dbdiagram.io, DBeaver, Lucidchart, or similar.
-    Save to /visuals/erd.png and reference it below.
-
-  Option B - dbdiagram.io code block (version-controllable):
-    Paste your schema definition code directly in the fenced block below.
-    Anyone can paste it into dbdiagram.io to regenerate the visual.
-
-  Option C - Mermaid diagram (renders natively in GitHub):
-    Use the mermaid code block syntax below.
-    GitHub will render this as a diagram automatically.
-
-  PICK ONE. Don't use all three. Delete the options you don't use.
--->
-
-### Option A - Embedded Image
-![ERD Diagram](visuals/erd.png)
-*[Brief caption: e.g., "Three-table schema - orders, customers, and products joined on shared IDs."]*
-
----
-
-### Option B - dbdiagram.io Schema Definition
-```
-Table orders {
-  order_id    int     [pk]
-  customer_id int     [ref: > customers.customer_id]
-  product_id  int     [ref: > products.product_id]
-  order_date  date
-  amount      float
-}
-
-Table customers {
-  customer_id int  [pk]
-  region_code string
-  signup_date date
-}
-
-Table products {
-  product_id   int    [pk]
-  category     string
-  unit_price   float
-}
-```
-*Paste this into [dbdiagram.io](https://dbdiagram.io) to view the visual.*
-
----
-
-### Option C - Mermaid Diagram *(renders on GitHub)*
-```mermaid
-erDiagram
-    ORDERS {
-        int order_id PK
-        int customer_id FK
-        int product_id FK
-        date order_date
-        float amount
-    }
-    CUSTOMERS {
-        int customer_id PK
-        string region_code
-        date signup_date
-    }
-    PRODUCTS {
-        int product_id PK
-        string category
-        float unit_price
-    }
-    ORDERS ||--o{ CUSTOMERS : "placed by"
-    ORDERS ||--o{ PRODUCTS : "contains"
-```
-
----
-
-**Table Relationships Summary:**
-
-| Relationship | Join Key | Type |
-|-------------|----------|------|
-| `orders` → `customers` | `customer_id` | Many-to-One |
-| `orders` → `products` | `product_id` | Many-to-One |
-| [Add rows as needed] | | |
-
----
-
-## 8. Analysis & Metrics
+## 7. Analysis & Metrics
 
 <!--
   Explain what you measured and how - before you share what you found.
@@ -488,15 +389,50 @@ erDiagram
 
 ### Analytical Approach
 
-[Describe how you approached the analysis. Were you exploring patterns? Testing a hypothesis? Building and validating a pipeline? Be honest about your method - exploratory work is valid, just call it that.]
+**Analytical Framework**
+
+The analysis follows three connected stages:
+
+Financial Access
+      ↓
+Digital Activation
+      ↓
+Financial Behavior
 
 ### Key Metrics Defined
 
-| Metric | Plain-Language Definition | Why It Matters |
-|--------|--------------------------|----------------|
-| `[Metric 1]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 2]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 3]` | [What it measures, in one sentence] | [What decision or question it answers] |
+### **Research Question 1 - Financial Access**
+**Which demographic groups show the largest gaps in financial account ownership?**
+
+**Key Metric**
+
+**Weighted Account Ownership Rate**
+
+Weighted share of respondents within each demographic group who own a financial account.
+
+### Largest Observed Gaps
+
+| Factor | Lowest Group | Lowest Rate | Highest Group | Highest Rate | Gap |
+|---|---|---:|---|---:|---:|
+| Education | Primary or Less | 33.62% | Tertiary | 82.15% | **48.53 pp** |
+| Income | Q1 – Poorest | 33.05% | Q5 – Richest | 64.47% | **31.42 pp** |
+| Age | 55–64 | 34.02% | 25–34 | 55.89% | **21.87 pp** |
+
+### Statistical Validation
+
+| Factor | Cramér's V | p-value |
+|---|---:|---:|
+| Education | **0.249** | <0.001 |
+| Income | **0.203** | <0.001 |
+| Employment | 0.151 | <0.001 |
+| Age | 0.109 | 0.035 |
+| Residence | 0.056 | 0.075 |
+| Gender | 0.055 | 0.080 |
+
+Education and income were the strongest observed demographic associations with financial account ownership.
+
+
+
 
 ### Methods Used
 
