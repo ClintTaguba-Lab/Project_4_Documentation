@@ -387,19 +387,12 @@ Methods used include:
      the implementation in the code.
 -->
 
-### Analytical Approach
-
-**Analytical Framework**
+**Analytical Approach & Framework**
 
 The analysis follows three connected stages:
 
-Financial Access
-      ↓
-Digital Activation
-      ↓
-Financial Behavior
+Financial Access > Digital Activation > Financial Behavior
 
-### Key Metrics Defined
 
 ### **Research Question 1 - Financial Access**
 **Which demographic groups show the largest gaps in financial account ownership?**
@@ -431,17 +424,93 @@ Weighted share of respondents within each demographic group who own a financial 
 
 Education and income were the strongest observed demographic associations with financial account ownership.
 
+---
+### **Research Question 2 - Digital Activation**
 
+Among account owners, which groups show the largest differences in digital payment adoption?
 
+**Digital Activation Rate**
+
+Among financial account owners:
+
+* 80.37% use digital payments.
+* 19.63% remain digitally inactive.
+
+### Largest Observed Digital Adoption Gaps
+
+| Factor | Lowest Group | Lowest Rate | Highest Group | Highest Rate | Gap |
+|---|---|---:|---|---:|---:|
+| Age | 55–64 | 50.04% | 15–24 | 94.33% | **44.29 pp** |
+| Internet | Non-Internet User | 48.29% | Internet User | 87.52% | **39.23 pp** |
+| Income | Q1 – Poorest | 53.17% | Q2 – Lower Middle | 86.42% | **33.25 pp** |
+
+### Statistical Validation
+
+| Factor | Cramér's V | p-value |
+|---|---:|---:|
+| Age | **0.370** | <0.001 |
+| Internet Usage | **0.354** | <0.001 |
+| Residence | 0.268 | <0.001 |
+| Income | 0.246 | <0.001 |
+| Education | 0.245 | <0.001 |
+| Gender | 0.020 | 0.651 |
+| Employment | 0.014 | 0.755 |
+
+Age and internet usage were the strongest observed associations with digital payment adoption among account owners.
+
+---
+
+### **Research Question 3 - Financial Behavior**
+
+How do saving and borrowing behaviors differ across financial-engagement levels?
+
+### Financial Behavior Segments
+
+| Behavior | Weighted Share |
+|---|---:|
+| Saver & Borrower | **40.49%** |
+| Borrower Only | **31.48%** |
+| Neither | 14.88% |
+| Saver Only | 13.14% |
+
+### Behavior by Financial Engagement
+
+| Financial Engagement | Saving Rate | Borrowing Rate |
+|---|---:|---:|
+| Financially Excluded | 36.75% | 65.66% |
+| Basic Access | 42.95% | 66.50% |
+| Digitally Active | **77.10%** | **81.11%** |
+
+Observed Gaps
+* Saving gap: 40.35 percentage points
+* Borrowing gap: 15.45 percentage points
+
+### Statistical Validation
+
+| Behavior | Cramér's V | p-value |
+|---|---:|---:|
+| Saving | **0.313** | <0.001 |
+| Borrowing | **0.145** | <0.001 |
+
+Financial engagement showed a substantially stronger association with saving behavior than borrowing behavior.
+
+---
 
 ### Methods Used
 
-- [e.g., Descriptive statistics - distribution, central tendency, outlier detection]
-- [e.g., Trend analysis across [time period]]
-- [e.g., Segmentation / group comparison by [dimension]]
-- [e.g., Correlation analysis between [variable A] and [variable B]]
-- [e.g., SQL window functions for [specific aggregation]]
-- [e.g., Custom aggregation or transformation logic in [tool]]
+| Method | Purpose | Applied To |
+|---|---|---|
+| **Survey-Weighted Analysis** | Estimate percentages while accounting for respondent survey weights | Account ownership, digital payment adoption, saving, and borrowing rates |
+| **Descriptive Analysis** | Summarize financial and demographic characteristics of respondents | Overall financial inclusion indicators |
+| **Demographic Segmentation** | Compare financial outcomes across population groups | Age, gender, education, income, employment, and residence |
+| **Behavioral Segmentation** | Group respondents according to saving, borrowing, and financial engagement | Financial Behavior and Financial Engagement segments |
+| **Percentage-Point Gap Analysis** | Measure the difference between the highest and lowest performing groups | Account ownership and digital payment adoption |
+| **Cross-Tabulation** | Examine relationships between categorical financial indicators | Account ownership, digital usage, saving, and borrowing |
+| **Chi-Square Test of Independence** | Test whether categorical variables show statistically detectable associations | RQ1, RQ2, and RQ3 |
+| **Cramér's V** | Measure and compare the strength of categorical associations | Demographic and behavioral factors |
+| **Data Visualization** | Communicate patterns, gaps, and comparisons visually | KPI summaries and research question findings |
+| **Evidence Synthesis** | Combine descriptive and statistical evidence into actionable findings | Final insights and recommendations |
+
 
 ---
 
