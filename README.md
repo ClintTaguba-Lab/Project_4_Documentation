@@ -500,12 +500,12 @@ Financial engagement showed a substantially stronger association with saving beh
 
 | Method | Purpose | Applied To |
 |---|---|---|
-| **Survey-Weighted Analysis** | Estimate percentages while accounting for respondent survey weights | Account ownership, digital payment adoption, saving, and borrowing rates |
+| **Survey Weighted Analysis** | Estimate percentages while accounting for respondent survey weights | Account ownership, digital payment adoption, saving, and borrowing rates |
 | **Descriptive Analysis** | Summarize financial and demographic characteristics of respondents | Overall financial inclusion indicators |
 | **Demographic Segmentation** | Compare financial outcomes across population groups | Age, gender, education, income, employment, and residence |
 | **Behavioral Segmentation** | Group respondents according to saving, borrowing, and financial engagement | Financial Behavior and Financial Engagement segments |
 | **Percentage-Point Gap Analysis** | Measure the difference between the highest and lowest performing groups | Account ownership and digital payment adoption |
-| **Cross-Tabulation** | Examine relationships between categorical financial indicators | Account ownership, digital usage, saving, and borrowing |
+| **Cross Tabulation** | Examine relationships between categorical financial indicators | Account ownership, digital usage, saving, and borrowing |
 | **Chi-Square Test of Independence** | Test whether categorical variables show statistically detectable associations | RQ1, RQ2, and RQ3 |
 | **Cramér's V** | Measure and compare the strength of categorical associations | Demographic and behavioral factors |
 | **Data Visualization** | Communicate patterns, gaps, and comparisons visually | KPI summaries and research question findings |
@@ -534,17 +534,19 @@ Financial engagement showed a substantially stronger association with saving beh
   Aim for 3–6 insights. Quality over quantity.
 -->
 
-**Insight 1: [Short descriptive headline]**
-[What you found + what it suggests. One short paragraph.]
+# 8. Key Insights
 
-**Insight 2: [Short descriptive headline]**
-[What you found + what it suggests.]
+**Insight 1: Education and income define the largest financial access gaps**  
+Account ownership varied substantially across socioeconomic groups, with a **48.53 percentage point gap by education** and a **31.42 percentage point gap by income**. Statistical testing also identified education and income as the strongest demographic associations with account ownership, suggesting that financial access remains particularly uneven across education and income levels.
 
-**Insight 3: [Short descriptive headline]**
-[What you found + what it suggests.]
+**Insight 2: Account ownership does not guarantee digital participation**  
+Although **80.37% of account owners use digital payments**, **19.63% remain digitally inactive**. This suggests that gaining access to a financial account is only one stage of financial inclusion and that digital activation should be considered separately from account acquisition.
 
-**Insight 4 (if applicable): [Short descriptive headline]**
-[What you found + what it suggests.]
+**Insight 3: Age and internet usage are key differentiators of digital adoption**  
+Among account owners, digital-payment adoption showed a **44.29 percentage point gap across age groups** and a **39.23 percentage point gap between internet and non-internet users**. These were also the strongest statistical associations with digital payment adoption, suggesting that digital inclusion efforts may need to address age related and connectivity related barriers.
+
+**Insight 4: Financial engagement differentiates saving more strongly than borrowing**  
+Saving showed a **40.35 percentage point gap across financial engagement levels**, compared with only **15.45 percentage points for borrowing**. Borrowing remained relatively common even among financially excluded respondents, suggesting that financial exclusion does not necessarily mean financial inactivity and that inclusion should be evaluated across multiple financial behaviors.
 
 ---
 
@@ -569,11 +571,15 @@ Financial engagement showed a substantially stronger association with saving beh
      (This is a placeholder, not a recommendation.)
 -->
 
+# 9. Recommendations
+
 | Priority | Recommendation | Based On | Suggested Owner |
-|----------|---------------|----------|-----------------|
-| High | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Medium | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Low | [Exploratory or longer-term suggestion] | [Insight it comes from] | [Who should act] |
+| --- | --- | --- | --- |
+| **High** | Prioritize simplified and assisted financial-access initiatives for lower education and lower income groups | **Insight 1:** Education and income show the largest financial access gaps | Financial Inclusion / Retail Banking |
+| **High** | Track digital activation separately from account acquisition and provide post opening support for digitally inactive account owners | **Insight 2:** 19.63% of account owners remain digitally inactive | Digital Banking / Customer Engagement |
+| **High** | Strengthen assisted digital onboarding and digital-literacy support for older and non internet users | **Insight 3:** Age and internet usage are key differentiators of digital adoption | Digital Banking / Branch Operations |
+| **Medium** | Develop accessible saving initiatives for financially excluded and basic access groups | **Insight 4:** Saving differs more strongly across financial engagement levels than borrowing | Deposits / Product Strategy |
+| **Low** | Explore broader financial inclusion measures that combine account ownership, digital activity, saving, and borrowing rather than relying on a single indicator | **Insight 4:** Financial exclusion does not necessarily mean financial inactivity | Financial Inclusion / Consumer Research |
 
 ---
 
@@ -594,16 +600,39 @@ Financial engagement showed a substantially stronger association with saving beh
      analytical maturity - not a confession of failure.
 -->
 
+# 10. Assumptions & Limitations
+
 ### Assumptions
-- [What did you treat as true without being able to verify?]
-- [What simplifications did you make for scope or feasibility?]
-- [What domain rules or definitions did you accept as given?]
+
+- **Survey weights represent the target population:** The provided survey weight (`wgt`) was treated as the appropriate weighting variable for calculating population-level descriptive percentages.
+
+- **Source variable definitions are valid:** Variables such as account ownership, digital-payment usage, saving, borrowing, education, employment, and internet usage were interpreted according to the definitions and coding provided in the Global Findex dataset.
+
+- **Binary indicators represent reported participation:** Variables such as `account`, `anydigpayment`, `saved`, and `borrowed` were treated as indicators of whether a respondent reported the corresponding financial behavior.
+
+- **Financial engagement was simplified into three analytical segments:** Respondents were classified as **Financially Excluded**, **Basic Access**, or **Digitally Active** to support the analysis. These categories were created specifically for this project and are not official Global Findex classifications.
+
+- **Demographic categories were grouped for analytical clarity:** Variables such as age, education, income, employment, and residence were converted into readable categories or grouped bands to make comparisons easier to interpret.
+
+- **Statistical significance was evaluated at the 5% level:** A p-value below **0.05** was used as the threshold for identifying statistically detectable associations in the sample.
 
 ### Limitations
-- [What gaps exist in the data?]
-- [What analysis was out of scope but could affect interpretation?]
-- [What would a more rigorous version of this project include?]
-- [Are there known biases in the data source or collection method?]
+
+- **The analysis is based on a cross-sectional survey:** The data captures respondents at a particular point in time. Therefore, the findings identify patterns and associations but cannot establish causal relationships.
+
+- **The Philippine sample contains 1,000 respondents:** While survey weights were used for descriptive estimates, some subgroup results may be based on relatively small numbers of respondents and should be interpreted cautiously.
+
+- **Financial behaviors are self-reported:** Responses related to saving, borrowing, account ownership, and digital-payment usage may be affected by recall error, misunderstanding, or response bias.
+
+- **Behavioral indicators provide limited detail:** Variables such as `saved`, `borrowed`, and `anydigpayment` indicate whether an activity occurred but do not capture its frequency, monetary value, duration, intensity, or financial outcome.
+
+- **The statistical tests do not implement a full complex-survey design:** Chi-square tests and Cramér's V were used as supplementary sample-level association measures. A more rigorous inferential analysis would account for the complete survey design where the necessary design variables are available.
+
+- **Potential confounding factors were not controlled simultaneously:** The analysis evaluates demographic and behavioral relationships primarily through segmentation and categorical association tests. Multivariable modeling could determine whether associations remain after controlling for other characteristics.
+
+- **Country comparisons and time trends are outside the project scope:** The analysis focuses only on the Philippines and does not determine whether the observed patterns are unique relative to other countries or have changed over time.
+
+- **Association should not be interpreted as causation:** For example, higher digital-payment adoption among internet users does not demonstrate that internet usage directly causes digital payment adoption. Other demographic, socioeconomic, or behavioral factors may contribute to the observed relationship.
 
 > *The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask.*
 
@@ -624,33 +653,35 @@ Financial engagement showed a substantially stronger association with saving beh
   ❌ Listing aspirational features that don't follow logically from the work.
 -->
 
-- [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
-- [ ] [Enhancement 2]
-- [ ] [Enhancement 3]
-- [ ] [Enhancement 4]
+- [ ] Enhancement 1 - Apply survey design aware statistical inference if full survey design variables become available.
+- [ ] Enhancement 2 - Build logistic regression models for account ownership and digital payment adoption.
+- [ ] Enhancement 3 - Compare the Philippines with selected ASEAN economies.
+- [ ] Enhancement 4 - Investigate specific saving and borrowing channels.
+- [ ] Enhancement 5 - Develop an interactive financial inclusion dashboard.
+- [ ] Enhancement 6 - Extend the analysis to additional Global Findex financial resilience indicators.
 
 ---
 
 ## 13. Deliverables
 
 | Deliverable | Description | Location |
-|-------------|-------------|----------|
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
+|---|---|---|
+| Analysis Notebook | Complete Python analysis, transformations, statistical tests, and visualizations | `notebooks/Financial_Inclusion_Philippines.ipynb` |
+| GitHub README | Executive case study and key findings | `README.md` |
+| Visualizations | Portfolio ready charts | `visuals/` |
+| Data Documentation | Dataset source and field definitions | `data/README.md` / `docs/data_dictionary.md` |
 
 ---
 
 ## 14. Author
 
-**[Your Name]**
-[Your role or title - current or target]
+**Clinton Taguba**
+Data Analyst | Aspiring Data Scientist & Data Engineer
 
-- 🔗 [LinkedIn URL]
+- 🔗 https://www.linkedin.com/in/clintontaguba/
 - 💼 [Portfolio or GitHub profile URL]
 - 📧 [Email - optional]
 
 ---
 
-*Last updated: [Month YYYY]*
-*If this template helped you, consider starring the repository.*
+*Last updated: [August 2025]*
