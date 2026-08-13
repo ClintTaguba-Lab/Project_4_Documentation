@@ -99,7 +99,7 @@ Three research questions guide the analysis:
 - **Secondary Objective 2:** Identify demographic groups with the largest account ownership gaps.
 - **Secondary Objective 3:** Determine whether account ownership translates into digital payment activity.
 - **Secondary Objective 4:** Identify characteristics associated with digital adoption among account owners.
-- **Secondary Objective 5:** Compare saving and borrowing behavior across financial-engagement levels.
+- **Secondary Objective 5:** Compare saving and borrowing behavior across financial engagement levels.
 - **Secondary Objective 6:** Statistically validate major descriptive findings.
 - **Secondary Objective 7:** Translate analytical evidence into practical financial inclusion recommendations.
 
@@ -241,13 +241,13 @@ Only variables relevant to the research questions were retained for analysis.
 
 The cleaning process included:
 
-checking respondent IDs for duplicates;
-reviewing missing values in key analytical variables;
-checking for missing survey weights;
-validating raw category values against the data definitions;
-reviewing demographic and financial indicator coding;
-checking survey-weight values before weighted calculations; and
-confirming that key binary indicators were consistently coded.
+* checking respondent IDs for duplicates
+* reviewing missing values in key analytical variables
+* checking for missing survey weights
+* validating raw category values against the data definitions
+* reviewing demographic and financial indicator coding
+* checking survey weight values before weighted calculations
+* confirming that key binary indicators were consistently coded
 
 These checks helped ensure that the analytical sample and variables were suitable for the subsequent weighted analysis.
 
