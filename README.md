@@ -369,18 +369,39 @@ financial account.
 Education and income were the strongest observed demographic
 associations with financial account ownership.
 
-|                                                                                                                                                                                                                                                                                                                                                            |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  ### **Research Question 2 - Digital Activation**                                                                                                                                                                                                                                                                                                          |
-| Among account owners, which groups show the largest differences in digital payment adoption?                                                                                                                                                                                                                                                               |
-| **Digital Activation Rate**                                                                                                                                                                                                                                                                                                                                |
-| Among financial account owners:                                                                                                                                                                                                                                                                                                                            |
-| \* 80.37% use digital payments. \* 19.63% remain digitally inactive.                                                                                                                                                                                                                                                                                       |
-| \### Largest Observed Digital Adoption Gaps                                                                                                                                                                                                                                                                                                                |
-| \| Factor \| Lowest Group \| Lowest Rate \| Highest Group \| Highest Rate \| Gap \| \|—\|—\|—:\|—\|—:\|—:\| \| Age \| 55–64 \| 50.04% \| 15–24 \| 94.33% \| **44.29 pp** \| \| Internet \| Non-Internet User \| 48.29% \| Internet User \| 87.52% \| **39.23 pp** \| \| Income \| Q1 – Poorest \| 53.17% \| Q2 – Lower Middle \| 86.42% \| **33.25 pp** \| |
-| \### Statistical Validation                                                                                                                                                                                                                                                                                                                                |
-| \| Factor \| Cramér’s V \| p-value \| \|—\|—:\|—:\| \| Age \| **0.370** \| \<0.001 \| \| Internet Usage \| **0.354** \| \<0.001 \| \| Residence \| 0.268 \| \<0.001 \| \| Income \| 0.246 \| \<0.001 \| \| Education \| 0.245 \| \<0.001 \| \| Gender \| 0.020 \| 0.651 \| \| Employment \| 0.014 \| 0.755 \|                                              |
-| Age and internet usage were the strongest observed associations with digital payment adoption among account owners.                                                                                                                                                                                                                                        |
+### **Research Question 2 – Digital Activation**
+
+**Among account owners, which groups show the largest differences in digital payment adoption?**
+
+### Digital Activation Rate
+
+Among financial account owners:
+
+- **80.37%** use digital payments.
+- **19.63%** remain digitally inactive.
+
+### Largest Observed Digital Adoption Gaps
+
+| Factor | Lowest Group | Lowest Rate | Highest Group | Highest Rate | Gap |
+|--------|--------------|------------:|---------------|-------------:|----:|
+| Age | 55–64 | 50.04% | 15–24 | 94.33% | **44.29 pp** |
+| Internet | Non-Internet User | 48.29% | Internet User | 87.52% | **39.23 pp** |
+| Income | Q1 – Poorest | 53.17% | Q2 – Lower Middle | 86.42% | **33.25 pp** |
+
+### Statistical Validation
+
+| Factor | Cramér's V | p-value |
+|--------|-----------:|--------:|
+| Age | **0.370** | <0.001 |
+| Internet Usage | **0.354** | <0.001 |
+| Residence | 0.268 | <0.001 |
+| Income | 0.246 | <0.001 |
+| Education | 0.245 | <0.001 |
+| Gender | 0.020 | 0.651 |
+| Employment | 0.014 | 0.755 |
+
+
+**Age and internet usage showed the strongest observed associations with digital payment adoption among account owners.**                                                                                                                                                                                                                               |
 
 ### **Research Question 3 - Financial Behavior**
 
