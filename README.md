@@ -662,9 +662,9 @@ Saving showed a **40.35 percentage point gap across financial engagement levels*
 Data Analyst | Aspiring Data Scientist & Data Engineer
 
 - 🔗 https://www.linkedin.com/in/clintontaguba/
-- 💼 [Portfolio or GitHub profile URL]
-- 📧 [Email - optional]
+- 💼 https://clinttaguba-lab.github.io/
+- 📧 tagubaclinton@gmail.com
 
 ---
 
-*Last updated: [August 2025]*
+*Last updated: [August 2026]*
