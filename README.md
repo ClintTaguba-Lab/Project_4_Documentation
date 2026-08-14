@@ -21,13 +21,13 @@
 4. [Repository Structure](#4-repository-structure)
 5. [Data Workflow](#5-data-workflow)
 6. [Data Model & Schema](#6-data-model--schema)
-7. [Analysis & Metrics](#8-analysis--metrics)
-8. [Key Insights](#9-key-insights)
-9. [Recommendations](#10-recommendations)
-10. [Assumptions & Limitations](#11-assumptions--limitations)
-11. [Future Enhancements](#12-future-enhancements)
-12. [Deliverables](#13-deliverables)
-13. [Author](#14-author)
+7. [Analysis & Metrics](#7-analysis--metrics)
+8. [Key Insights](#8-key-insights)
+9. [Recommendations](#9-recommendations)
+10. [Assumptions & Limitations](#10-assumptions--limitations)
+11. [Future Enhancements](#11-future-enhancements)
+12. [Deliverables](#12-deliverables)
+13. [Author](#13-author)
 
 ---
 
@@ -581,22 +581,6 @@ Saving showed a **40.35 percentage point gap across financial engagement levels*
 
 ---
 
-## 11. Assumptions & Limitations
-
-<!--
-  WHAT GOOD LOOKS LIKE:
-  Assumption: "Transaction records were assumed to be complete for all five regions.
-               No validation was performed against source system record counts."
-  Limitation: "The analysis cannot distinguish between returns initiated by
-               the customer vs. returns initiated by the business (e.g., recalls).
-               If business-initiated returns are concentrated in Region A, the
-               return rate finding may reflect a policy decision, not a quality issue."
-
-  WHAT TO AVOID:
-  ❌ Leaving this section blank or writing "None known."
-     Every project has limitations. Documenting them is a sign of
-     analytical maturity - not a confession of failure.
--->
 
 # 10. Assumptions & Limitations
 
@@ -636,7 +620,7 @@ Saving showed a **40.35 percentage point gap across financial engagement levels*
 
 ---
 
-## 12. Future Enhancements
+## 11. Future Enhancements
 
 <!--
   WHAT GOOD LOOKS LIKE:
@@ -660,7 +644,7 @@ Saving showed a **40.35 percentage point gap across financial engagement levels*
 
 ---
 
-## 13. Deliverables
+## 12. Deliverables
 
 | Deliverable | Description | Location |
 |---|---|---|
@@ -671,7 +655,7 @@ Saving showed a **40.35 percentage point gap across financial engagement levels*
 
 ---
 
-## 14. Author
+## 13. Author
 
 **Clinton Taguba**
 
